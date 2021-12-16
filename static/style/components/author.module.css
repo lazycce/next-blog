@@ -1,0 +1,18 @@
+.authorDiv{
+  text-align: center;
+  padding: 1rem;
+}
+
+.authorDivDiv {
+  margin-bottom: 1rem;
+}
+
+.introduction{
+  font-size:.8rem;
+  color: #999;
+}
+
+.account{
+  margin-left: .5rem;
+  margin-right: .5rem;
+}

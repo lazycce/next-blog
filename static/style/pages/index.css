@@ -1,0 +1,22 @@
+.list-title {
+  font-size: 1.3rem;
+  color:#1e90ff;
+  padding: 0 0.5rem;
+}
+
+.list-context {
+  color: #777;
+  padding: .5rem;
+}
+
+.ant-menu {
+  line-height: 2.6rem;
+}
+
+.ant-menu-item {
+  font-size: .7rem !important;
+  padding:0 1rem;
+}
+.ant-menu-horizontal {
+  border-bottom: 0px !important;
+}

@@ -1,0 +1,12 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+.ad{
+  margin-top: .5rem;
+}
+.img{
+  border-radius: .3rem;
+  margin-bottom: .2rem;
+  overflow: hidden;
+}

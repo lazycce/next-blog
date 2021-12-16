@@ -1,0 +1,30 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+.header {
+  background-color: #fff;
+
+  overflow: hidden;
+  border-bottom:1px solid #EAEAEA;
+}
+
+.headerLogo{
+  color: #1e90ff;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.headerTxt {
+  font-size: 0.6rem;
+  color: #999;
+  display: inline-block;
+  padding-left: 0.3rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
