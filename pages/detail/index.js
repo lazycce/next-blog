@@ -56,9 +56,9 @@ const DetailIndex  = () => {
           <Author />
           <Advert />
           <Affix>
-            <div className="common-box">
+            <div className={[detailed.ad, 'common-box'].join(' ')}>
+              <div className={detailed.navTitle}>文章目录</div>
               <MarkNav
-                className="arti"
                 source={markdown}
               />
             </div>
