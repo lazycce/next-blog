@@ -1,4 +1,5 @@
-import React, { useState } from "react" 
+import React, { useState } from "react"
+import Link from 'next/link'
 import Head from 'next/head'
 import { Row, Col, Affix,Breadcrumb } from 'antd'
 import ReactMarkdown from 'react-markdown'
@@ -24,7 +25,7 @@ const DetailIndex  = () => {
   '>> bbbbbbbbb\n' +
   '>>> cccccccccc\n'+
   '***\n\n\n' +
-  '# p03:Vue3.0基础知识讲解\n' +
+  '# p03:Vue3.0基础 知识讲解\n' +
   '> aaaaaaaaa\n' +
   '>> bbbbbbbbb\n' +
   '>>> cccccccccc\n\n'+
@@ -68,7 +69,7 @@ const DetailIndex  = () => {
           <div>
             <div className={detailed.breadDiv}>
               <Breadcrumb>
-                <Breadcrumb.Item><a href="/">首页</a></Breadcrumb.Item>
+                <Breadcrumb.Item><Link href="/">首页</Link></Breadcrumb.Item>
                 <Breadcrumb.Item>视频列表</Breadcrumb.Item>
                 <Breadcrumb.Item>xxxx</Breadcrumb.Item>
               </Breadcrumb>
@@ -85,7 +86,7 @@ const DetailIndex  = () => {
               <div className={detailed.detailedContent}>
                 详细内容
                   <ReactMarkdown 
-                    children={markdown}
+                    source={markdown}
                     className={detailed.code}
                   />
               </div>
